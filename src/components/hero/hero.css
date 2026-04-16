@@ -1,0 +1,31 @@
+.hero {
+  height: 80vh;
+  background: whitesmoke;
+  color: grey;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  color: black;
+}
+
+.hero p {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  border: none;
+  background: #38bdf8;
+  color: #0f172a;
+  border-radius: 5px;
+  cursor: pointer;
+}
